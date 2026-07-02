@@ -421,6 +421,305 @@
           </article>
         </div>
       </section>
+
+      <section id="boissons" aria-labelledby="boissons-titre">
+        <h2 id="boissons-titre">Boissons rafraîchissantes</h2>
+
+        <div>
+          <article aria-labelledby="plat-11-titre">
+            <figure>
+              <img
+                src="images/jus-bissap.webp"
+                alt="Jus de bissap frais"
+                width="300"
+                height="200"
+                loading="lazy"
+              />
+              <figcaption>Jus de bissap</figcaption>
+            </figure>
+            <h3 id="plat-11-titre">Jus de bissap</h3>
+            <p>Jus de fleurs d'hibiscus, légèrement sucré et rafraîchissant.</p>
+            <div>
+              <span>1 500 FCFA</span>
+              <span aria-label="Ingrédients">
+                <strong>Ingrédients :</strong> Fleurs d'hibiscus, sucre, eau,
+                menthe
+              </span>
+            </div>
+          </article>
+
+          <article aria-labelledby="plat-12-titre">
+            <figure>
+              <img
+                src="./images/jus-gibgembre.jpg"
+                alt="Jus de gingembre traditionnel"
+                width="300"
+                height="200"
+                loading="lazy"
+              />
+              <figcaption>Jus de gingembre</figcaption>
+            </figure>
+            <h3 id="plat-12-titre">Jus de gingembre épicé</h3>
+            <p>
+              Jus de gingembre frais avec une touche de citron et de piment.
+            </p>
+            <div>
+              <span>1 500 FCFA</span>
+              <span aria-label="Ingrédients">
+                <strong>Ingrédients :</strong> Gingembre, citron, sucre, eau,
+                piment
+              </span>
+            </div>
+          </article>
+
+          <article aria-labelledby="plat-13-titre">
+            <h3 id="plat-13-titre">Eau minérale naturelle</h3>
+            <p>Eau minérale fraîche de source.</p>
+            <div>
+              <span>500 FCFA</span>
+              <span aria-label="Ingrédients">
+                <strong>Ingrédients :</strong> Eau minérale
+              </span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="special" aria-labelledby="special-titre">
+        <h2 id="special-titre">Special du jour</h2>
+
+        <article aria-labelledby="special-plat-titre">
+          <figure>
+            <img
+              src="images/ngai-ngai-moambe.jpeg"
+              alt="Plat spécial du jour - Ngai ngai à la moambe"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <figcaption>Spécial du jour</figcaption>
+          </figure>
+
+          <div>
+            <h3 id="special-plat-titre">Ngai ngai à la moambe et plantain</h3>
+            <p>
+              Notre chef vous propose aujourd'hui un délicieux
+              <strong>ngai ngai</strong>
+              (escargots de mer) mijoté dans une sauce moambe onctueuse,
+              accompagné de banane plantain rôtie et de riz parfumé.
+            </p>
+            <div>
+              <span>9 000 FCFA</span>
+              <span aria-label="Ingrédients">
+                <strong>Ingrédients :</strong> Ngai ngai, noix de palme,
+                oignons, ail, plantain, riz, épices traditionnelles
+              </span>
+            </div>
+            <p aria-label="Note du chef">
+              <strong>Note du chef :</strong> Plat préparé avec des ingrédients
+              frais du marché de Bacongo, à Brazzaville.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="horaires" aria-labelledby="horaires-titre">
+        <h2 id="horaires-titre">Horaires d'ouverture</h2>
+
+        <dl aria-label="Horaires d'ouverture du restaurant">
+          <div>
+            <dt>Lundi</dt>
+            <dd>11h30 - 22h00</dd>
+          </div>
+          <div>
+            <dt>Mardi</dt>
+            <dd>11h30 - 22h00</dd>
+          </div>
+          <div>
+            <dt>Mercredi</dt>
+            <dd>11h30 - 22h00</dd>
+          </div>
+          <div>
+            <dt>Jeudi</dt>
+            <dd>11h30 - 22h00</dd>
+          </div>
+          <div>
+            <dt>Vendredi</dt>
+            <dd>11h30 - 23h00</dd>
+          </div>
+          <div>
+            <dt>Samedi</dt>
+            <dd>11h30 - 23h00</dd>
+          </div>
+          <div>
+            <dt>Dimanche</dt>
+            <dd>Fermé</dd>
+          </div>
+        </dl>
+
+        <aside aria-label="Information supplémentaire">
+          <p>
+            <abbr title="Information">Info</abbr>
+            Service continu toute la journée
+          </p>
+          <p>
+            <strong>Réservation recommandée</strong> pour les groupes de 6+
+            personnes
+          </p>
+        </aside>
+      </section>
+
+      <section id="reservation" aria-labelledby="reservation-titre">
+        <h2 id="reservation-titre">Réserver une table</h2>
+
+        <form
+          action="/reservation"
+          method="post"
+          aria-label="Formulaire de réservation"
+        >
+          <div>
+            <label for="reserv-nom">
+              Nom complet
+              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
+                >*</abbr
+              >
+            </label>
+            <input
+              type="text"
+              id="reserv-nom"
+              name="nom"
+              placeholder="ex: Jean Dupont"
+              required
+              aria-required="true"
+              autocomplete="name"
+            />
+          </div>
+
+          <div>
+            <label for="reserv-email">
+              Email
+              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
+                >*</abbr
+              >
+            </label>
+            <input
+              type="email"
+              id="reserv-email"
+              name="email"
+              placeholder="jean@exemple.com"
+              required
+              aria-required="true"
+              autocomplete="email"
+            />
+          </div>
+
+          <div>
+            <label for="reserv-tel">Téléphone</label>
+            <input
+              type="tel"
+              id="reserv-tel"
+              name="telephone"
+              placeholder="+242 05 555 6789"
+              autocomplete="tel"
+            />
+          </div>
+
+          <div>
+            <label for="reserv-nombre">
+              Nombre de personnes
+              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
+                >*</abbr
+              >
+            </label>
+            <input
+              type="number"
+              id="reserv-nombre"
+              name="nombre"
+              min="1"
+              max="20"
+              value="2"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div>
+            <label for="reserv-date">
+              Date
+              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
+                >*</abbr
+              >
+            </label>
+            <input
+              type="date"
+              id="reserv-date"
+              name="date"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div>
+            <label for="reserv-heure">
+              Heure
+              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
+                >*</abbr
+              >
+            </label>
+            <input
+              type="time"
+              id="reserv-heure"
+              name="heure"
+              min="11:30"
+              max="21:30"
+              step="1800"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div>
+            <label for="reserv-occasion">Occasion spéciale</label>
+            <select id="reserv-occasion" name="occasion">
+              <option value="">Aucune</option>
+              <option value="anniversaire">Anniversaire</option>
+              <option value="romantique">Dîner romantique</option>
+              <option value="affaire">Repas d'affaires</option>
+              <option value="famille">Réunion de famille</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="reserv-demande">Demande spéciale</label>
+            <textarea
+              id="reserv-demande"
+              name="demande"
+              rows="3"
+              placeholder="Allergies, plats végétariens, etc."
+            ></textarea>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              id="reserv-accept"
+              name="accept"
+              required
+              aria-required="true"
+            />
+            <label for="reserv-accept">
+              J'accepte que mes données soient utilisées pour cette réservation
+              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
+                >*</abbr
+              >
+            </label>
+          </div>
+
+          <button type="submit" aria-label="Envoyer la demande de réservation">
+            Réserver maintenant
+          </button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
