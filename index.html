@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +11,7 @@
     <title>Saveurs de Brazzaville - Restaurant Congolais</title>
   </head>
   <body>
-    <header role="banner" aria-label="En-tête du restaurant">
+    <header aria-label="En-tête du restaurant">
       <div>
         <div>
           <h1>Saveurs de Brazzaville</h1>
@@ -32,7 +32,7 @@
       </div>
     </header>
 
-    <main role="main">
+    <main>
       <section aria-labelledby="presentation-titre">
         <h2 id="presentation-titre">Bienvenue aux Saveurs de Brazzaville</h2>
         <p>
@@ -78,7 +78,7 @@
             </p>
             <div>
               <span>3 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Pâte à samossa, carottes, chou,
                 oignon, épices
               </span>
@@ -103,7 +103,7 @@
             </p>
             <div>
               <span>3 000 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Banane plantain, farine, levure,
                 sucre, huile
               </span>
@@ -128,7 +128,7 @@
             </p>
             <div>
               <span>4 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Poisson fumé, tomates, oignons,
                 piment, feuilles de bananier
               </span>
@@ -157,7 +157,7 @@
             <p>Poulet rôti super bon</p>
             <div>
               <span>6 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Poulet,oignons, ail, poivron, riz
               </span>
             </div>
@@ -181,7 +181,7 @@
             </p>
             <div>
               <span>7 000 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Poisson frais, épices, piment ,
                 citron
               </span>
@@ -206,7 +206,7 @@
             </p>
             <div>
               <span>6 000 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Gombo, viande de porc, oignons,
                 épices, fufu
               </span>
@@ -231,7 +231,7 @@
             </p>
             <div>
               <span>5 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Feuilles de manioc, poisson fumé,
                 oignons, huile de palme
               </span>
@@ -256,7 +256,7 @@
             </p>
             <div>
               <span>7 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Viande de bœuf, tomates, oignons,
                 poivrons, feuilles de bananier
               </span>
@@ -389,7 +389,7 @@
             </p>
             <div>
               <span>2 000 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Farine, levure, sucre, huile,
                 vanille
               </span>
@@ -414,7 +414,7 @@
             </p>
             <div>
               <span>2 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Farine, miel, sésame, huile, œufs
               </span>
             </div>
@@ -441,7 +441,7 @@
             <p>Jus de fleurs d'hibiscus, légèrement sucré et rafraîchissant.</p>
             <div>
               <span>1 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Fleurs d'hibiscus, sucre, eau,
                 menthe
               </span>
@@ -465,7 +465,7 @@
             </p>
             <div>
               <span>1 500 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Gingembre, citron, sucre, eau,
                 piment
               </span>
@@ -477,9 +477,7 @@
             <p>Eau minérale fraîche de source.</p>
             <div>
               <span>500 FCFA</span>
-              <span aria-label="Ingrédients">
-                <strong>Ingrédients :</strong> Eau minérale
-              </span>
+              <span> <strong>Ingrédients :</strong> Eau minérale </span>
             </div>
           </article>
         </div>
@@ -510,12 +508,12 @@
             </p>
             <div>
               <span>9 000 FCFA</span>
-              <span aria-label="Ingrédients">
+              <span>
                 <strong>Ingrédients :</strong> Ngai ngai, noix de palme,
                 oignons, ail, plantain, riz, épices traditionnelles
               </span>
             </div>
-            <p aria-label="Note du chef">
+            <p>
               <strong>Note du chef :</strong> Plat préparé avec des ingrédients
               frais du marché de Bacongo, à Brazzaville.
             </p>
@@ -580,9 +578,7 @@
           <div>
             <label for="reserv-nom">
               Nom complet
-              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
-                >*</abbr
-              >
+              <abbr title="Champ obligatoire">*</abbr>
             </label>
             <input
               type="text"
@@ -590,7 +586,6 @@
               name="nom"
               placeholder="ex: Jean Dupont"
               required
-              aria-required="true"
               autocomplete="name"
             />
           </div>
@@ -598,9 +593,7 @@
           <div>
             <label for="reserv-email">
               Email
-              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
-                >*</abbr
-              >
+              <abbr title="Champ obligatoire">*</abbr>
             </label>
             <input
               type="email"
@@ -608,7 +601,6 @@
               name="email"
               placeholder="jean@exemple.com"
               required
-              aria-required="true"
               autocomplete="email"
             />
           </div>
@@ -627,9 +619,7 @@
           <div>
             <label for="reserv-nombre">
               Nombre de personnes
-              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
-                >*</abbr
-              >
+              <abbr title="Champ obligatoire">*</abbr>
             </label>
             <input
               type="number"
@@ -639,32 +629,21 @@
               max="20"
               value="2"
               required
-              aria-required="true"
             />
           </div>
 
           <div>
             <label for="reserv-date">
               Date
-              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
-                >*</abbr
-              >
+              <abbr title="Champ obligatoire">*</abbr>
             </label>
-            <input
-              type="date"
-              id="reserv-date"
-              name="date"
-              required
-              aria-required="true"
-            />
+            <input type="date" id="reserv-date" name="date" required />
           </div>
 
           <div>
             <label for="reserv-heure">
               Heure
-              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
-                >*</abbr
-              >
+              <abbr title="Champ obligatoire">*</abbr>
             </label>
             <input
               type="time"
@@ -674,7 +653,6 @@
               max="21:30"
               step="1800"
               required
-              aria-required="true"
             />
           </div>
 
@@ -700,18 +678,10 @@
           </div>
 
           <div>
-            <input
-              type="checkbox"
-              id="reserv-accept"
-              name="accept"
-              required
-              aria-required="true"
-            />
+            <input type="checkbox" id="reserv-accept" name="accept" required />
             <label for="reserv-accept">
               J'accepte que mes données soient utilisées pour cette réservation
-              <abbr title="Champ obligatoire" aria-label="Champ obligatoire"
-                >*</abbr
-              >
+              <abbr title="Champ obligatoire">*</abbr>
             </label>
           </div>
 
